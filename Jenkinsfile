@@ -1,7 +1,5 @@
 pipeline {
-    agent {
-       label 'linux_000143'
-    }
+    agent any
     stages {
         stage('Example') {
             input {
