@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        linux_000143
+       label 'linux_000143'
     }
     stages {
         stage('Example') {
